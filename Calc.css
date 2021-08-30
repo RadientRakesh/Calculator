@@ -1,0 +1,41 @@
+.calculator
+{
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+}
+.display-box
+{
+    font-family: sans-serif;
+    background-color: darkseagreen;
+    color: black;
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+}
+.button
+{
+    background-color: #BB86FC;
+    color: white;
+    font-family: sans-serif;
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    height: 70%;
+    width: 100%;
+}
+body
+{
+    background-color: black;
+}
+
+input:hover{
+    color: #BB86FC;
+    background-color: white;
+    box-shadow: #BB86FC;
+}
+h2{
+    color: white;
+}
